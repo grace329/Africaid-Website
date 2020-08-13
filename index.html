@@ -7,7 +7,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-firestore.js"></script>
+    <script src = "js/firebase.js"></script>
+    <script src = "js/app.js" defer></script>
     <script src="js/scripts.js"></script>
   </head>
   <body data-spy='scroll' data-target='.navbar' data-offset='50'>
@@ -22,6 +26,7 @@
           <li class = "nav-item"><a class = "nav-link" href="#how-it-works">How it Works</a></li>
           <li class = "nav-item"><a class = "nav-link" href="#charities">Charities</a></li>
           <li class = "nav-item"><a class = "nav-link" href="#contact">Contact Us</a></li>
+          <li class = "nav-item"><a class = "nav-link" href="#advertise">Advertise</a></li>
         </ul>
       </div>
     </nav>
@@ -45,6 +50,19 @@
     <section id = "contact" class="slideanim" style="padding-top:70px; padding-bottom:70px;">
       <h1>Contact Us</h1>
       <p>In incididunt echo park, officia deserunt mcsweeney's proident master cleanse thundercats sapiente veniam. Excepteur VHS elit, proident shoreditch +1 biodiesel laborum craft beer. Single-origin coffee wayfarers irure four loko, cupidatat terry richardson master cleanse. Assumenda you probably haven't heard of them art party fanny pack, tattooed nulla cardigan tempor ad. Proident wolf nesciunt sartorial keffiyeh eu banh mi sustainable. Elit wolf voluptate, lo-fi ea portland before they sold out four loko. Locavore enim nostrud mlkshk brooklyn nesciunt.</p>
+    </section>
+    <section id = "advertise" class="slideanim" style="padding-top:70px; padding-bottom:70px;">
+      <h1>Contact Us</h1>
+      <p>In incididunt echo park, officia deserunt mcsweeney's proident master cleanse thundercats sapiente veniam. Excepteur VHS elit, proident shoreditch +1 biodiesel laborum craft beer. Single-origin coffee wayfarers irure four loko, cupidatat terry richardson master cleanse. Assumenda you probably haven't heard of them art party fanny pack, tattooed nulla cardigan tempor ad. Proident wolf nesciunt sartorial keffiyeh eu banh mi sustainable. Elit wolf voluptate, lo-fi ea portland before they sold out four loko. Locavore enim nostrud mlkshk brooklyn nesciunt.</p>
+      <h1>Advertise with us!</h1>
+        <h3>Enter the image link:</h3>
+        <input id = "text1" placeholder= "i.e. http://imagelink.jpg">
+        <br>
+        <h3>Enter your redirect website link:</h3>
+        <input id = "text2" placeholder= "i.e. www.google.com">
+        <br>
+        <br>
+        <button id = "btn">Submit!</button>
     </section>
   </body>
 </html>
