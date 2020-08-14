@@ -27,6 +27,8 @@ a {
 }
 
 .slideanim {
+    padding: 1vh 2.5vw;
+    text-align:center;
 }
 
 .text-block{
