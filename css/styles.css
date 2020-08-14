@@ -1,36 +1,28 @@
-body {
-}
-
-h1 {
-}
-
-h2 {
-}
-
-p {
-}
-
 .navbar-color-custom{
     background-color: #0C9292;
 }
-.navbar-brand {
-}
-
 a {
     color: white;
 }
 
-.nav-link {
+h1{
+    color: #0C9292;
+}
+a.navgar-brand:hover{
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
 }
 
-.jumbotron {
+a.nav-link:hover{
+    font-weight:500;
+    color: white;
 }
-
-.slideanim {
-    padding: 1vh 2.5vw;
-    text-align:center;
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg%27%3E%3Cpath stroke='rgba(255, 255, 255, 255)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
 }
 
 .text-block{
-    padding: 5vh 18vw;
+    padding: 6vh 18vw;
+    text-align:center;
 }
