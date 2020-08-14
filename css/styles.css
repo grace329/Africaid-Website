@@ -10,10 +10,14 @@ h2 {
 p {
 }
 
+.navbar-color-custom{
+    background-color: #0C9292;
+}
 .navbar-brand {
 }
 
-.nav-item {
+a {
+    color: white;
 }
 
 .nav-link {
@@ -23,4 +27,8 @@ p {
 }
 
 .slideanim {
+}
+
+.text-block{
+    padding: 5vh 18vw;
 }
