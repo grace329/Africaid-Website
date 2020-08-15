@@ -248,3 +248,8 @@
  .left {
      text-align: left;
  }
+ 
+ .center {
+     margin: auto;
+     width: 50%;
+ }
