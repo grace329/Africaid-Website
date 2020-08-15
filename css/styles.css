@@ -205,7 +205,7 @@
      width: 100%;
      color: #d3d3d3;
      transition: 0.2s all;
-     cursor: text;
+     cursor: default;
  }
  
  input {
@@ -231,13 +231,6 @@
  
  input:focus~label,
  input:valid~label {
-     font-size: 17px;
-     top: -20px;
-     color: #0c9292;
- }
- 
- label:focus,
- label:valid {
      font-size: 17px;
      top: -20px;
      color: #0c9292;

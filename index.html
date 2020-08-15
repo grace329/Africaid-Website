@@ -105,16 +105,17 @@
     <section id="ad" class="slideanim text-block nopad">
         <h1>Advertise with us!</h1>
         <p class="caption"> For the purposes of this hackathon, the images will be directly displayed onto the extension. In actual practice, the advertisement will undergo moderation by our creators before being placed on our extension.</p>
-        <form action="">
+        <form>
             <div class="input-field">
-                <input type="text" id="text1" required />
-                <label for="name">Image link:</label>
+
+                <label for="img">Image link:</label>
+                <input name="img" type="text" id="text1" required />
             </div>
         </form>
-        <form action="">
+        <form>
             <div class="input-field">
-                <input type="text" id="text2" required />
-                <label for="name">Redirect link:</label>
+                <label for="lnk">Redirect link:</label>
+                <input name="lnk" type="text" id="text2" required />
             </div>
         </form>
         <button id="btn">Submit!</button>
