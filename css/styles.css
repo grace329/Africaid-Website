@@ -13,10 +13,19 @@
      border: none;
  }
  
+ #tile {
+     width: 50rem !important;
+ }
+ 
  .card-deck {
      display: flex;
      justify-content: center;
      flex-direction: row;
+ }
+ 
+ #how-it-works {
+     padding-left: 6%;
+     padding-right: 6%;
  }
  
  .noselect {
@@ -111,7 +120,7 @@
  }
  
  .nav-link.active {
-     color: #287271 !important;
+     color: #cacaca !important;
  }
  
  .logoimg {
