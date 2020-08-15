@@ -102,6 +102,10 @@
      border: 0px;
  }
  
+ button:focus {
+     outline: none !important;
+ }
+ 
  button:hover {
      background-color: #005c5c;
  }
