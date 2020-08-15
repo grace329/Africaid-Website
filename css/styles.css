@@ -236,6 +236,13 @@
      color: #0c9292;
  }
  
+ label:focus,
+ label:valid {
+     font-size: 17px;
+     top: -20px;
+     color: #0c9292;
+ }
+ 
  .left {
      text-align: left;
  }
