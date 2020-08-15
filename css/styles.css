@@ -1,227 +1,235 @@
-        .navbar-color-custom {
-        background-color: #0C9292;
-    }
-    
-    a {
-        color: white;
-    }
-    
-    .card {
-        margin: 3% 5%;
-        max-width: 50rem;
-        border-radius: 1%;
-        border: none;
-    }
-    
-    .card-deck {
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-    }
-    
-    .noselect {
-        -webkit-touch-callout: none;
-        -webkit-user-select: none;
-        -khtml-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-    }
-    
-    h1 {
-        color: #0C9292;
-        font-size: 35px;
-        font-family: 'Staatliches', sans-serif;
-        margin-bottom: 25px;
-        margin-top: 25px;
-    }
-    
-    .caption {
-        opacity: 75%;
-        font-style: italic;
-        padding-top: 0px;
-        font-size: 16px;
-        padding: 2vh 18vw;
-        text-align: center;
-    }
-    
-    .cap {
-        opacity: 75%;
-        font-style: italic;
-        padding-top: 0px;
-        font-size: 16px;
-    }
-    
-    h3 {
-        font-size: 22px;
-        font-family: 'Palanquin', sans-serif;
-    }
-    
-    a.navgar-brand:hover {
-        background: white;
-        text-decoration: none;
-        color: #0C9292;
-        border-radius: 7%;
-    }
-    
-    a.nav-link:hover {
-        background: white;
-        color: #0C9292;
-        border-radius: 2%;
-    }
-    
-    .navgar-brand {
-        font-weight: 700;
-        font-size: 30px;
-        text-decoration: none;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    
-    .navbar-toggler-icon {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg%27%3E%3Cpath stroke='rgba(255, 255, 255, 255)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-    }
-    
-    .navbar {
-        box-shadow: 0px 5px 5px #c4c4c4;
-    }
-    
-    .text-block {
-        padding: 8vh 18vw;
-        text-align: center;
-        font-size: 20px;
-        font-family: 'Palanquin', sans-serif;
-    }
-    
-    button {
-        background-color: #0C9292;
-        color: white;
-        font-family: 'Palanquin', sans-serif;
-        padding: 2px 8px;
-        border-radius: 10px;
-        border: 0px;
-    }
-    
-    button:hover {
-        background-color: #005c5c;
-    }
-    
-    .nav-link.active {
-        color: #287271 !important;
-    }
-    
-    input {
-        margin-bottom: 20px;
-    }
-    
-    .logoimg {
-        width: calc(5px + 50vw);
-        height: auto;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    .card-text {
-        font-size: 17px;
-        line-height: 25px;
-    }
-    
-    .cont {
-        height: 12rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    @media screen and (max-width: 900px) {
-        .card-deck {
-            width: 100%;
-            display: block;
-            margin-right: 0px !important;
-            margin-left: 0px !important;
-        }
-        .card {
-            margin: 3% 5%;
-            margin-left: auto !important;
-            margin-right: auto !important;
-        }
-        .cont {
-            height: auto;
-            margin-bottom: 20px;
-        }
-    }
-    
-    .nopad {
-        padding-left: 10%;
-        padding-right: 10%;
-    }
-    
-    form {
-        margin: 100px;
-        display: flex;
-        font-size: 25px;
-        justify-content: center;
-    }
-    
-    .input-field {
-        position: relative;
-        width: 250px;
-        height: 44px;
-        line-height: 44px;
-        font-family: 'Staatliches', cursive;
-    }
-    
-    label {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        color: #d3d3d3;
-        transition: 0.2s all;
-        cursor: text;
-    }
-    
-    input {
-        width: 100%;
-        border: 0;
-        outline: 0;
-        padding: 0.5rem 0;
-        border-bottom: 2px solid #d3d3d3;
-        box-shadow: none;
-        color: #111;
-    }
-    
-    input:invalid {
-        outline: 0;
-    }
-    
-    input:focus,
-    input:valid {
-        border-color: #55bed8;
-    }
-    
-    input:focus~label,
-    input:valid~label {
-        font-size: 20px;
-        top: -10px;
-        color: #0c9292;
-        .flex-container {
-            display: flex;
-            justify-content: space-between;
-            padding: 10px 22px;
-        }
-        .flex {
-            width: 120px;
-        }
-        .icon {
-            opacity: 1;
-            transition: opacity 0.2s ease-in-out;
-        }
-        .icon:hover {
-            opacity: 0.4;
-        }
-        .icon .fa {
-            font-size: 70px;
-            color: #0077b6ff;
-        }
+ .navbar-color-custom {
+     background-color: #0C9292;
+ }
+ 
+ a {
+     color: white;
+ }
+ 
+ .card {
+     margin: 3% 5%;
+     max-width: 50rem;
+     border-radius: 1%;
+     border: none;
+ }
+ 
+ .card-deck {
+     display: flex;
+     justify-content: center;
+     flex-direction: row;
+ }
+ 
+ .noselect {
+     -webkit-touch-callout: none;
+     -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+ }
+ 
+ h1 {
+     color: #0C9292;
+     font-size: 35px;
+     font-family: 'Staatliches', sans-serif;
+     margin-bottom: 25px;
+     margin-top: 25px;
+ }
+ 
+ .caption {
+     opacity: 75%;
+     font-style: italic;
+     padding-top: 0px;
+     font-size: 16px;
+     padding: 2vh 18vw;
+     text-align: center;
+ }
+ 
+ .cap {
+     opacity: 75%;
+     font-style: italic;
+     padding-top: 0px;
+     font-size: 16px;
+ }
+ 
+ h3 {
+     font-size: 22px;
+     font-family: 'Palanquin', sans-serif;
+ }
+ 
+ a.navgar-brand:hover {
+     background: white;
+     text-decoration: none;
+     color: #0C9292;
+     border-radius: 7%;
+ }
+ 
+ a.nav-link:hover {
+     background: white;
+     color: #0C9292;
+     border-radius: 2%;
+ }
+ 
+ .navgar-brand {
+     font-weight: 700;
+     font-size: 30px;
+     text-decoration: none;
+     padding-left: 10px;
+     padding-right: 10px;
+ }
+ 
+ .navbar-toggler-icon {
+     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg%27%3E%3Cpath stroke='rgba(255, 255, 255, 255)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+ }
+ 
+ .navbar {
+     box-shadow: 0px 5px 5px #c4c4c4;
+ }
+ 
+ .text-block {
+     padding: 8vh 18vw;
+     text-align: center;
+     font-size: 20px;
+     font-family: 'Palanquin', sans-serif;
+ }
+ 
+ button {
+     background-color: #0C9292;
+     color: white;
+     font-family: 'Palanquin', sans-serif;
+     padding: 2px 8px;
+     border-radius: 10px;
+     border: 0px;
+ }
+ 
+ button:hover {
+     background-color: #005c5c;
+ }
+ 
+ .nav-link.active {
+     color: #287271 !important;
+ }
+ 
+ input {
+     margin-bottom: 20px;
+ }
+ 
+ .logoimg {
+     width: calc(5px + 50vw);
+     height: auto;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ 
+ .card-text {
+     font-size: 17px;
+     line-height: 25px;
+ }
+ 
+ .cont {
+     height: 12rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ @media screen and (max-width: 900px) {
+     .card-deck {
+         width: 100%;
+         display: block;
+         margin-right: 0px !important;
+         margin-left: 0px !important;
+     }
+     .card {
+         margin: 3% 5%;
+         margin-left: auto !important;
+         margin-right: auto !important;
+     }
+     .cont {
+         height: auto;
+         margin-bottom: 20px;
+     }
+ }
+ 
+ .nopad {
+     padding-left: 10%;
+     padding-right: 10%;
+ }
+ 
+ form {
+     margin: 100px;
+     display: flex;
+     font-size: 25px;
+     justify-content: center;
+ }
+ 
+ .input-field {
+     position: relative;
+     width: 250px;
+     height: 44px;
+     font-family: 'Staatliches', cursive;
+ }
+ 
+ label {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     color: #d3d3d3;
+     transition: 0.2s all;
+     cursor: text;
+ }
+ 
+ input {
+     width: 100%;
+     border: 0;
+     outline: 0;
+     padding: 0.5rem 0;
+     border-bottom: 2px solid #d3d3d3;
+     box-shadow: none;
+     color: #000;
+     font-size: 15px;
+     margin-top: 10px;
+     font-family: 'Palanquin', sans-serif;
+ }
+ 
+ input:invalid {
+     outline: 0;
+ }
+ 
+ input:focus,
+ input:valid {
+     border-color: #55bed8;
+ }
+ 
+ input:focus~label,
+ input:valid~label {
+     font-size: 20px;
+     top: -10px;
+     color: #0c9292;
+ }
+ 
+ .flex-container {
+     display: flex;
+     justify-content: space-between;
+     padding: 10px 22px;
+ }
+ 
+ .flex {
+     width: 120px;
+ }
+ 
+ .icon {
+     opacity: 1;
+     transition: opacity 0.2s ease-in-out;
+ }
+ 
+ .icon:hover {
+     opacity: 0.4;
+ }
+ 
+ .icon .fa {
+     font-size: 70px;
+     color: #0077b6ff;
+ }
