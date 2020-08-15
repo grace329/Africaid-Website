@@ -8,8 +8,8 @@ a {
 
 .card{
     margin:3% 5%;
-    max-width:25rem;
-    border:none;
+    max-width:50rem;
+    border-radius:1%;
   }
   
   .card-deck{
