@@ -41,6 +41,8 @@ h1{
     font-style: italic;
     padding-top:0px;
     font-size:16px;
+    padding: 2vh 18vw;
+    text-align:center;
 }
 
 h3{
@@ -84,11 +86,6 @@ a.nav-link:hover{
     font-family: 'Palanquin', sans-serif;
 }
 
-#about {
-    padding: 2vh 18vw;
-    text-align:center;
-}
-
 button {
     background-color: #0C9292;
     color: white;
@@ -130,4 +127,9 @@ input{
       margin-left: auto !important;
       margin-right:auto !important;
     }
+  }
+
+ #charities{
+      padding-left:10%;
+      padding-right:10%;
   }
