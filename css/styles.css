@@ -1,13 +1,31 @@
 .navbar-color-custom{
     background-color: #0C9292;
 }
+
 a {
     color: white;
 }
 
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 35%;
+}
+
 h1{
     color: #0C9292;
+    font-size: 35px;
+    font-family: 'Staatliches', sans-serif;
 }
+
+h3{
+    font-size: 22px;
+    font-family: 'Palanquin', sans-serif;
+}
+
 a.navgar-brand:hover{
     background: white;
     text-decoration: none;
@@ -25,6 +43,26 @@ a.nav-link:hover{
 }
 
 .text-block{
-    padding: 6vh 18vw;
+    padding: 8vh 18vw;
+    text-align:center;
+    font-size: 20px;
+    font-family: 'Palanquin', sans-serif;
+}
+
+#about {
+    padding: 2vh 18vw;
     text-align:center;
 }
+
+button {
+    background-color: #0C9292;
+    color: white;
+    font-family: 'Palanquin', sans-serif;
+    padding: 2px 8px;
+    border-radius: 10px;
+    border: 0px;
+}
+
+button:hover {
+    background-color: #005c5c;
+  }
