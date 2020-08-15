@@ -34,13 +34,14 @@ function validURL(str) {
         });
         document.getElementById("text1").value = "";
         document.getElementById("text2").value = "";
+        alert("Success!");
       }
       else {
         alert("Sorry, that link doesn't seem to be valid! Please try again.");
       }
     };
     img.onerror = function () {
-      alert("Sorry, we can't seem to find that image! Please try again");
+      alert("Sorry, we can't seem to find that image! Please try again.");
     }; // doesn't work
     img.src = imageSrc;
   
