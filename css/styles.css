@@ -157,63 +157,6 @@
      padding-right: 10%;
  }
  
- form {
-     margin: 100px;
-     display: flex;
-     font-size: 25px;
-     justify-content: center;
- }
- 
- .input-field {
-     position: relative;
-     width: 250px;
-     height: 44px;
-     font-family: 'Staatliches', cursive;
- }
- 
- label {
-     position: absolute;
-     top: 0;
-     left: 0;
-     width: 100%;
-     color: #d3d3d3;
-     transition: 0.2s all;
-     cursor: text;
- }
- 
- input {
-     width: 100%;
-     border: 0;
-     outline: 0;
-     border-bottom: 2px solid #d3d3d3;
-     padding-top: 10px;
-     box-shadow: none;
-     color: #000;
-     font-size: 15px;
-     margin-top: 25px;
-     font-family: 'Palanquin', sans-serif;
- }
- 
- input:invalid {
-     outline: 0;
- }
- 
- input:focus,
- input:valid {
-     border-color: #55bed8;
- }
- 
- input:focus~label,
- input:valid~label {
-     font-size: 20px;
-     top: -5px;
-     color: #0c9292;
- }
- 
- input:focus::placeholder {
-     color: transparent;
- }
- 
  .flex-container {
      display: flex;
      justify-content: space-between;
@@ -236,4 +179,56 @@
  .icon .fa {
      font-size: 70px;
      color: #0077b6ff;
+ }
+ 
+ form {
+     margin: 100px;
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .input-field {
+     position: relative;
+     width: 250px;
+     height: 44px;
+     line-height: 44px;
+     font-family: 'Staatliches', cursive;
+ }
+ 
+ label {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     color: #d3d3d3;
+     transition: 0.2s all;
+     cursor: text;
+ }
+ 
+ input {
+     width: 100%;
+     border: 0;
+     outline: 0;
+     padding-top: 10px;
+     border-bottom: 2px solid #d3d3d3;
+     box-shadow: none;
+     font-family: 'Palanquin', sans-serif;
+     font-size: 14px;
+     color: #111;
+ }
+ 
+ input:invalid {
+     outline: 0;
+ }
+ 
+ input:focus,
+ input:valid {
+     border-color: #55bed8;
+ }
+ 
+ input:focus~label,
+ input:valid~label {
+     font-size: 17px;
+     top: -20px;
+     color: #0c9292;
  }
