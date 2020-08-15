@@ -10,7 +10,7 @@ a {
     margin: 3% 5%;
     max-width: 50rem;
     border-radius: 1%;
-    border:none;
+    border: none;
 }
 
 .card-deck {
@@ -43,6 +43,13 @@ h1 {
     font-size: 16px;
     padding: 2vh 18vw;
     text-align: center;
+}
+
+.cap {
+    opacity: 75%;
+    font-style: italic;
+    padding-top: 0px;
+    font-size: 16px;
 }
 
 h3 {
@@ -115,16 +122,16 @@ input {
     margin-right: auto;
 }
 
-.card-text{
-    font-size:17px;
+.card-text {
+    font-size: 17px;
     line-height: 25px;
 }
 
-.cont{
-    height:12rem;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+.cont {
+    height: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media screen and (max-width: 900px) {
@@ -139,13 +146,37 @@ input {
         margin-left: auto !important;
         margin-right: auto !important;
     }
-    .cont{
-        height:auto;
-        margin-bottom:20px;
+    .cont {
+        height: auto;
+        margin-bottom: 20px;
     }
 }
 
 .nopad {
     padding-left: 10%;
     padding-right: 10%;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 22px;
+}
+
+.flex {
+    width: 120px;
+}
+
+.icon {
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.icon:hover {
+    opacity: 0.4;
+}
+
+.icon .fa {
+    font-size: 70px;
+    color: #0077b6ff;
 }
