@@ -12,7 +12,6 @@ a {
     margin-right: auto;
     margin-bottom: 5px;
     margin-top: 5px;
-    width: 35%;
 }
 
 .noselect { 
@@ -84,3 +83,17 @@ button {
 button:hover {
     background-color: #005c5c;
   }
+
+.nav-link.active {
+    color: #287271 !important;
+}
+
+input{
+    margin-bottom: 20px;
+}
+
+.logoimg{
+    /*width:calc(5px + 50vw);
+    height:auto;*/
+}
+
