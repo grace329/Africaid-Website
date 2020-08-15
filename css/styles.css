@@ -125,6 +125,7 @@
  .card-text {
      font-size: 17px;
      line-height: 25px;
+     text-align: left;
  }
  
  .cont {
@@ -231,4 +232,8 @@
      font-size: 17px;
      top: -20px;
      color: #0c9292;
+ }
+ 
+ .left {
+     text-align: left;
  }
