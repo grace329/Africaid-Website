@@ -15,6 +15,15 @@ a {
     width: 35%;
 }
 
+.noselect { 
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+     user-select: none;
+ } 
+
 h1{
     color: #0C9292;
     font-size: 35px;
