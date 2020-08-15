@@ -6,8 +6,11 @@
     <title>Africaid</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
     <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-firestore.js"></script>
@@ -25,84 +28,94 @@
         <a class="navgar-brand" href="">Africaid</a>
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
-          </button>
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class = "navbar-nav ml-auto">
-          <li class = "nav-item"><a class = "nav-link active" href="#about">About</a></li>
-          <li class = "nav-item"><a class = "nav-link" href="#how-it-works">How it Works</a></li>
-          <li class = "nav-item"><a class = "nav-link" href="#charities">Charities</a></li>
-          <li class = "nav-item"><a class = "nav-link" href="#ad">Advertise</a></li>
-          <li class = "nav-item"><a class = "nav-link" href="#contact">Contact Us</a></li>
-          
-        </ul>
-      </div>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link active" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#how-it-works">How it Works</a></li>
+                <li class="nav-item"><a class="nav-link" href="#charities">Charities</a></li>
+                <li class="nav-item"><a class="nav-link" href="#ad">Advertise</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+
+            </ul>
+        </div>
     </nav>
 
-    <img src="images/africaidlogo.png" class = "noselect logoimg" draggable="false" height=130px>
+    <img src="images/africaidlogo.png" class="noselect logoimg" draggable="false" height=130px>
 
 
     <section id="about" class="slideanim text-block">
         <!--<h1>About Africaid</h1>-->
-        <p>Africaid is a chrome extension that generates ads when a new tab is opened. All proceeds go to charities.</p>
+        <p class="caption">Africaid is a chrome extension that generates ads when a new tab is opened. All proceeds go
+            to charities.</p>
     </section>
     <section id="how-it-works" class="slideanim text-block">
 
         <h1>How Africaid Works</h1>
         <div class="row">
-          <div class="col-md-6">
-              <div class="card">
-                  <img class="card-img-top img-fluid" src="images/sample_ads.png">
-              </div>
-          </div>
-          <div class="col-md-6">
-             <p> do some random stuff blah blah blah In incididunt echo park, officia deserunt mcsweeney's proident master cleanse thundercats sapiente veniam. Excepteur VHS elit, proident shoreditch +1 biodiesel laborum craft beer. Single-origin coffee wayfarers irure four loko, cupidatat terry
-            richardson master cleanse.nim nostrud mlkshk brooklyn nesciunt.do some random stuff blah blah blah In incididunt echo park, officia deserunt mcsweeney's proident master cleanse thundercats sapiente veniam. Excepteur VHS elit, proident shoreditch +1 biodiesel laborum craft beer. Single-origin coffee wayfarers irure four loko, cupidatat terry richardson master cleanse. Assumenda you probably haven't heard of them art party fanny pack, tattooed nulla cardigan tempor ad. Proident wolf nesciunt sartorial keffiyeh eu banh mi sustainable. Elit wolf voluptate, lo-fi ea portland before they sold out four loko. Locavore enim nostrud mlkshk brooklyn nesciunt.</p>
-          </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <img class="card-img-top img-fluid" src="images/sample_ads.png">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <p> do some random stuff blah blah blah In incididunt echo park, officia deserunt mcsweeney's proident
+                    master cleanse thundercats sapiente veniam. Excepteur VHS elit, proident shoreditch +1 biodiesel
+                    laborum craft beer. Single-origin coffee wayfarers irure four loko, cupidatat terry
+                    richardson master cleanse.nim nostrud mlkshk brooklyn nesciunt.do some random stuff blah blah blah
+                    In incididunt echo park, officia deserunt mcsweeney's proident master cleanse thundercats sapiente
+                    veniam. Excepteur VHS elit, proident shoreditch +1 biodiesel laborum craft beer. Single-origin
+                    coffee wayfarers irure four loko, cupidatat terry richardson master cleanse. Assumenda you probably
+                    haven't heard of them art party fanny pack, tattooed nulla cardigan tempor ad. Proident wolf
+                    nesciunt sartorial keffiyeh eu banh mi sustainable. Elit wolf voluptate, lo-fi ea portland before
+                    they sold out four loko. Locavore enim nostrud mlkshk brooklyn nesciunt.</p>
+            </div>
         </div>
-        
+
     </section>
     <section id="charities" class="slideanim text-block">
         <h1>Charities we donate to</h1>
-        <div class="row">
-          <div class="col-md-6 col-lg-3">
-              <div class="card">
-                  <img class="card-img-top img-fluid" src="images/african_lib_proj.png">
-                  <div class="card-block">
-                      <p class="card-text">Lorem ninja ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                  </div>
-              </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-              <div class="card">
-                  <img class="card-img-top img-fluid" src="images/save_the_children.jpg">
-                  <div class="card-block">
-                      <p class="card-text">Lorem ninja ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                  </div>
-              </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-              <div class="card">
-                  <img class="card-img-top img-fluid" src="images/doctors_without_borders.jpg">
-                  <div class="card-block">
-                      <p class="card-text">Lorem ninja ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                  </div>
-              </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-              <div class="card">
-                  <img class="card-img-top img-fluid" src="images/charity_water.jpg">
-                  <div class="card-block">
-                      <p class="card-text">Lorem ninja ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                  </div>
-              </div>
-          </div>
-      </div>
+
+        <div class="card-deck">
+            <div class="card">
+                <img class="card-img-top img-fluid" src="images/african_lib_proj.png">
+                <div class="card-block">
+                    <p class="card-text">Lorem ninja ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                        nonummy
+                        nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top img-fluid" src="images/save_the_children.jpg">
+                <div class="card-block">
+                    <p class="card-text">Lorem ninja ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                        nonummy
+                        nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top img-fluid" src="images/doctors_without_borders.jpg">
+                <div class="card-block">
+                    <p class="card-text">Lorem ninja ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                        nonummy
+                        nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top img-fluid" src="images/charity_water.jpg">
+                <div class="card-block">
+                    <p class="card-text">Lorem ninja ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                        nonummy
+                        nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id = "ad" class = "slideanim text-block">
-      <h1>Advertise with us!</h1>
-      <h3>Enter the image link:</h3>
-      <input id = "text1" placeholder= "i.e. http://imagelink.jpg">
+    <section id="ad" class="slideanim text-block">
+        <h1>Advertise with us!</h1>
+        <h3>Enter the image link:</h3>
+        <input id="text1" placeholder="i.e. http://imagelink.jpg">
         <br>
         <h3>Enter your redirect website link:</h3>
         <input id="text2" placeholder="i.e. www.google.com">
@@ -111,10 +124,16 @@
         <button id="btn">Submit!</button>
     </section>
 
-    <section id = "contact" class="slideanim text-block">
-      <h1>Contact Us</h1>
-      <p>In incididunt echo park, officia deserunt mcsweeney's proident master cleanse thundercats sapiente veniam. Excepteur VHS elit, proident shoreditch +1 biodiesel laborum craft beer. Single-origin coffee wayfarers irure four loko, cupidatat terry richardson master cleanse. Assumenda you probably haven't heard of them art party fanny pack, tattooed nulla cardigan tempor ad. Proident wolf nesciunt sartorial keffiyeh eu banh mi sustainable. Elit wolf voluptate, lo-fi ea portland before they sold out four loko. Locavore enim nostrud mlkshk brooklyn nesciunt.</p>
+    <section id="contact" class="slideanim text-block">
+        <h1>Contact Us</h1>
+        <p>In incididunt echo park, officia deserunt mcsweeney's proident master cleanse thundercats sapiente veniam.
+            Excepteur VHS elit, proident shoreditch +1 biodiesel laborum craft beer. Single-origin coffee wayfarers
+            irure four loko, cupidatat terry richardson master cleanse. Assumenda you probably haven't heard of them art
+            party fanny pack, tattooed nulla cardigan tempor ad. Proident wolf nesciunt sartorial keffiyeh eu banh mi
+            sustainable. Elit wolf voluptate, lo-fi ea portland before they sold out four loko. Locavore enim nostrud
+            mlkshk brooklyn nesciunt.</p>
     </section>
 
-  </body>
+</body>
+
 </html>

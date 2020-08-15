@@ -6,6 +6,19 @@ a {
     color: white;
 }
 
+.card{
+    margin:3% 5%;
+    max-width:25rem;
+    border:none;
+  }
+  
+  .card-deck{
+    display: flex;
+     justify-content: center;
+     flex-direction: row;
+  }
+
+
 .noselect { 
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -20,6 +33,14 @@ h1{
     font-size: 35px;
     font-family: 'Staatliches', sans-serif;
     margin-bottom: 25px;
+}
+
+
+.caption{
+    opacity:75%;
+    font-style: italic;
+    padding-top:0px;
+    font-size:16px;
 }
 
 h3{
@@ -93,3 +114,16 @@ input{
     margin-right: auto;
 }
 
+@media screen and (max-width: 900px) {
+    .card-deck {
+      width: 100%;
+      display: block;
+      margin-right:0px !important;
+      margin-left:0px !important;
+    }
+    .card{
+      margin:3% 5%;
+      margin-left: auto !important;
+      margin-right:auto !important;
+    }
+  }
